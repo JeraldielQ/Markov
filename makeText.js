@@ -7,7 +7,6 @@ const axios = require("axios");
 const process = require("process");
 
 
-
 function generateText(text) {
   let mm = new markov.MarkovMachine(text);
   console.log(mm.makeText());
